@@ -1,0 +1,20 @@
+name: Factions
+version: '${project.version}'
+main: br.com.redeend.factions.Factions
+commands:
+  f:
+    description: Gerencia as facções no servidor.
+    usage: /f <subcommand>
+  zona:
+    description: Gerencia as zonas no servidor.
+    usage: /zona definir <livre/guerra/neutra> | /zona ver
+  g:
+  spawn:
+  setspawn:
+  bancada:
+  compactar:
+  derreter:
+  descompactar:
+  luz:
+  vida:
+  fome:
